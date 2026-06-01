@@ -1,0 +1,25 @@
+{
+  "name": "MyWidget",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "2.30",
+  "wabVersion": "2.30",
+  "author": "Your Team",
+  "description": "Custom widget for ArcGIS Web AppBuilder",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "inPanel": true,
+    "hasConfig": true,
+    "hasLocale": true,
+    "hasStyle": true,
+    "hasUIFile": true,
+    "hasSettingPage": true,
+    "hasSettingUIFile": true,
+    "hasSettingLocale": true,
+    "hasSettingStyle": true,
+    "supportMultiInstance": false,
+    "isController": false
+  }
+}

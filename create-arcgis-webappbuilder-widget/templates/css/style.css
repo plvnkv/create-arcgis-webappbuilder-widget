@@ -1,0 +1,13 @@
+.jimu-widget-mywidget .mywidget-root {
+  padding: 12px;
+}
+
+.jimu-widget-mywidget .mywidget-header {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.jimu-widget-mywidget .mywidget-status {
+  margin-top: 10px;
+  min-height: 20px;
+}
