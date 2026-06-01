@@ -34,7 +34,6 @@ Do not use this skill for Experience Builder or ArcGIS JS API standalone apps.
 For implementation patterns derived from official ArcGIS sample code, use the local examples library:
 
 - [examples/README.md](examples/README.md) (index)
-
 Each example file includes:
 - Reference URL to the official sample.
 - Recommended adaptation for this skill and WAB 2.30 workflows.
@@ -101,6 +100,15 @@ Core rules:
 - Put Ukrainian translation in `nls/uk/strings.js`.
 - Do not hardcode user-facing strings in `Widget.js` or `Setting.js`.
 - Prefer neutral, short UI labels to reduce overflow in translated layouts.
+
+## Release Recommendations
+
+See [recommendations/release-checklist.md](recommendations/release-checklist.md).
+Core checks:
+- Verify lifecycle cleanup and open/close stability.
+- Validate runtime behavior with slow/empty data responses.
+- Confirm config compatibility and safe handling of missing optional keys.
+- Recheck compatibility claims for `stemapp` and `stemapp3d` when applicable.
 
 ## Common Mistakes
 
