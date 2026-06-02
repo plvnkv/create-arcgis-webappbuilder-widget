@@ -63,6 +63,7 @@ MyWidget/
   css/
     style.css
   images/
+    icon.png
   nls/
     strings.js
     uk/
